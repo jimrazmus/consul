@@ -1,5 +1,6 @@
-@import './healthcheck-output/index';
-.healthcheck-output {
+@import './skin';
+@import './layout';
+.consul-health-check-list .health-check-output {
   @extend %healthcheck-output;
 }
 %healthcheck-output dd em[data-tooltip] {
